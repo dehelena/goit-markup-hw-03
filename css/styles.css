@@ -301,12 +301,8 @@ ul {
   color: var(--primary-background-color);
 }
 
-.footer-item {
+.footer-item:not(:last-child) {
   margin-bottom: 9px;
-}
-
-.footer-item:nth-child(3) {
-  margin-bottom: 0;
 }
 
 .footer-link {
